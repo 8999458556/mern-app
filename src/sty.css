@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: sans-serif;
+}
+.header{
+display: flex;
+background-color: black;
+justify-content: space-between;
+height: 75px;
+}
+.heading-bar{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: space-around;
+    padding: 15px;
+    text-align: center;
+
+}
+.header .head-comp-1 h1{
+    color: white;
+    border-radius: 30px;
+    padding: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-left: 2cm;
+    text-decoration: none;
+
+}
+.header .head-comp-2 ul{
+    list-style: none;
+    float:right;
+    margin-top: 0.1cm;
+    margin-right: 1cm;
+
+}
+.header .head-comp-2 li{
+    display: inline-block;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    padding: 5px;
+}
+.jj{
+    height: 20%;
+    width: 20%;
+}
+.det{
+     margin-top: 2cm;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: lavender;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.total{
+    text-align: center;
+}
+.drop{
+    width: 200px;
+    border: 3px solid black;
+}
+.card{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1cm;   
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+}
+.card h3{
+    font-family: 'Inter', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Inter:wght@500&display=swap');
+.card p {
+    font-family: 'Catamaran', sans-serif;
+    font-size:25px;
+    font-weight: 600;
+}
+.cards{
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.table .tr:nth-of-type(odd){
+    background-color: lightblue;
+
+
+}
+
+.charts{
+    position:relative;
+    margin: 10px;
+    height: 5cm;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.charts .dt1,.dt2{
+    margin:20px;
+
+}
+.box{
+    height: 17cm;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+    position: relative;
+    background-color: lavender;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: relative;
+    width: 50%;
+    left: 10cm;
+    top:2cm;
+    padding: 2cm;
+}
+.login .input{
+    width: 60%;
+    margin: 20px;
+    font-size: 0.5cm;
+}
+#but{
+    padding:10px;
+    background-color:red;
+    width: 50%;
+    color: white;
+    margin-top: 0.5cm;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.feed-head{
+    box-sizing: border-box;
+    height: 2cm;
+    box-shadow: 5px 5px grey;
+    background-color: honeydew;
+}
+.feed{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#feed-box{
+    box-sizing: border-box;
+    position: relative;
+    width: 700px;
+}
+.feed h4{
+    padding: 10px;
+    margin-bottom: -0.5cm;
+}
+.feed .feed-1{
+    width: 50%;
+    margin-top: 0.5cm;
+}
+.card-box{
+    display: flex;
+    padding: 15px;
+
+}
+.footer{
+    background-color: black;
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    height: 50px;
+    font-weight: 600;
+}
+.map{
+    width: 100%;
+}
+.leaflet-container{
+    height: 19cm;
+    width: 90%;
+    padding: 1cm;
+    margin-top: 20px;
+    margin-left: 30px;
+}
